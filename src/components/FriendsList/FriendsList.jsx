@@ -1,0 +1,2 @@
+
+import "./FriendsList.scss";
