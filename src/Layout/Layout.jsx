@@ -1,10 +1,10 @@
 import React from "react";
-import Nav from "../components/Nav/Nav";
+// import Nav from "../components/Nav/Nav";
 
 const Layout = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
     </div>
   );
 };
