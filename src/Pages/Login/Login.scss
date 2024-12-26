@@ -1,0 +1,142 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    background: #016969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imgAndLogIn {
+        width: 90%;
+        height: 80vh;
+        background: #161616;
+        border-radius: 20px;
+        border: 2px solid #161616;
+        display: flex;
+        box-shadow: rgba(205, 192, 192, 0.35) 0px 5px 15px;
+
+        .LogInImg {
+            width: 50%;
+            height: 100%;
+            background: url('../../assets/images/login_Img.jpg') no-repeat center center;
+            background-size: cover;
+            border-radius: 20px 0 0 20px;
+            display: flex;
+            justify-content: center;
+            line-height: 40px;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: black;
+                font-style: italic;
+                letter-spacing: 3px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .login-box {
+            width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 20px;
+            align-items: center;
+
+            h1 {
+                font-size: 36px;
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            .icons {
+                width: 30%;
+                height: 60px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .icon {
+                    padding: 10px;
+                    color: gray;
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                    transition: all ease .4s;
+
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+
+            form {
+                width: 100%;
+                height: 30vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                input {
+                    width: 80%;
+                    margin: 10px 0;
+                    padding: 12px;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 16px;
+                    background: black;
+                    color: white;
+                    outline: none;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 12px;
+                    background-color: gray;
+                    font-size: 18px;
+                    color: white;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    transition: .3s;
+
+                    &:hover {
+                        background-color: #b8caca;
+                        color: rgb(95, 85, 85);
+                    }
+                }
+            }
+
+            .error {
+                color: red;
+                font-size: 14px;
+                margin: 5px 0;
+            }
+
+            p {
+                font-size: 14px;
+                color: white;
+
+                span {
+                    color: blue;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
