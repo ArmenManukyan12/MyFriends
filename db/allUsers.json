@@ -1,8 +1,40 @@
 {
-    "allUsers": [
-  
-    ],
-    "loginesUsers": [
-      
-    ]
-  }
+  "allUsers": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john.doe@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "securePass456"
+    },
+    {
+      "id": 3,
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "email": "michael.johnson@example.com",
+      "password": "myPass789"
+    },
+    {
+      "id": 4,
+      "firstname": "Emily",
+      "lastname": "Davis",
+      "email": "emily.davis@example.com",
+      "password": "password321"
+    },
+    {
+      "id": 5,
+      "firstname": "William",
+      "lastname": "Brown",
+      "email": "william.brown@example.com",
+      "password": "pass456789"
+    }
+  ],
+  "loginesUsers": []
+}
